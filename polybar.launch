@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+killall -q polybar
+
+polybar top1 & polybar bottom1 & polybar top2 & polybar bottom2
